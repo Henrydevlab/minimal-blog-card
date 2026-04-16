@@ -1,56 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
-    />
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Minimal Blog Card - devChallenges">
+    <meta name="description" content="Explore the beauty of simplicity with our guide on embracing minimalism in art and life." />
+    <meta name="author" content="Annie Spratt" />
     <title>devChallenges.io | Minimal Blog Card</title>
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-      body {
-        height: 100vh;
-      }
+    <main class="main-container">
+        <article class="blog-card" aria-labelledby="card-title">
+            <header class="card-header">
+                <div class="image-wrapper" role="presentation">
+                    <img src="cactus.jpg" alt="Cactus" class="cactus-img">
+                </div>
+            </header>
+            
+            <div class="card-content">
+                <span class="tag">Design</span>
+                <h2 id="card-title" class="title">Embracing Minimalism</h2>
+                <p class="description">
+                    From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.
+                </p>
+            </div>
+            
+            <hr class="divider" aria-hidden="true">
+            
+            <footer class="card-footer">
+                <span class="author">Annie Spratt</span>
+            </footer>
+        </article>
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+        <div class="author-info">
+            Coded by <a href="#">Henry</a> | Challenge by
+            <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>
+        </div>
+    </main>
 
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Design
-
-  Embracing Minimalism
-
-  From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.
-
-  Annie Spratt -->
-
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </div>
-  </body>
+</body>
 </html>
